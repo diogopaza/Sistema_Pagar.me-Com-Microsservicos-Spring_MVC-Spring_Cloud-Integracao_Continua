@@ -6,6 +6,6 @@
   <li>Arquitetura baseada em Microsserviços</li>
  <li>Feign Client</li>
  <li>Gateway</li>
- <li> Spring Cloud Eureka <li>
- <li>Loader Balancer</li> 
+ <li> Spring Cloud Eureka</li>
+ <li>Load Balancer</li> 
 </ul>
