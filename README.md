@@ -4,6 +4,8 @@
 
 <ul>
   <li>Arquitetura baseada em Microsserviços</li>
+  <li>Docker</li>
+  <li>AWS</li>
  <li>Feign Client</li>
  <li>Gateway</li>
  <li> Spring Cloud Eureka</li>
