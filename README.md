@@ -10,6 +10,6 @@
   <li>Infraestrutura como código</li>
  <li>Feign Client</li>
  <li>Gateway</li>
- <li> Spring Cloud Eureka</li>
+ <li> Spring Cloud Gateway</li>
  <li>Load Balancer</li> 
 </ul>
