@@ -2,6 +2,12 @@
 
 #Tecnologias e Arquiteturas
 
+<h3>Comando para executar uma aplicação Spring via terminal</h3>
+<p>& "c:\pasta-com-app-spring\mvnw.cmd" spring-boot:run -f "c:\pasta-com-app-spring\pom.xml"</p>
+
+<h3>Gerando um nome aleatorio apra a aplicação</h3>
+<p>No arquivo application.properties esta sendo definida a propriedade <strong>spring.application.name=fintech-diogo-usuarios-${random.int[1,10000]}, na qual é possível através do método random.uuid gerar um valor aleátorio com o método random, dessa forma cada aplicação que subir terá um nome diferente sendo possível identificá-las no service discovery em caso de necessidade. </strong></p>
+
 <ul>
   <li>Arquitetura baseada em Microsserviços</li>
   <li>Docker</li>
