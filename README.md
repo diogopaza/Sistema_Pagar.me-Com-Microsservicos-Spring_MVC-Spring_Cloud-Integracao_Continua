@@ -9,7 +9,7 @@
   <li>Circuit Breaker</li>
   <li>Infraestrutura como código</li>
  <li>Feign Client</li>
- <li>Gateway</li>
+ <li>Gateway === ponto de entrada unico, cada microsserviço sobe em uma porta. O gateway recebe a requisicao do cliente e consulta no Service Registry qual instancia do microsservico responde por aquela rota.</li>
  <li>Discovery Service com Netflix Eureka</li>
   <p>Serviço de descoberta de microsserviços. O servidor esta na pasta server-eureka e roda na porta 8091.</p>
   <li> Spring Cloud Gateway</li>
