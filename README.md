@@ -9,6 +9,7 @@
 <p>No arquivo application.properties esta sendo definida a propriedade <strong>spring.application.name=fintech-diogo-usuarios-${random.int[1,10000]}, na qual é possível através do método random.uuid gerar um valor aleátorio com o método random, dessa forma cada aplicação que subir terá um nome diferente sendo possível identificá-las no service discovery em caso de necessidade. </strong></p>
 
 <ul>
+  <li>Tesstes unitarios com JUnit 5</li>
   <li>Arquitetura baseada em Microsserviços</li>
   <li>Docker</li>
   <li>AWS</li>
