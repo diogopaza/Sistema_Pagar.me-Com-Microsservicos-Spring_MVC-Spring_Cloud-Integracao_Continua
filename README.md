@@ -3,6 +3,7 @@
 #Tecnologias e Arquiteturas
 
 <ul>
+  <li>Testes unitarios com JUnit 5</li>
   <li>Arquitetura baseada em Microsserviços</li>
   <li>Docker</li>
   <li>AWS</li>
