@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  postgres: 
+    image: postgres
+    restart: always
+    container_name: postgres-ci
+    ports:
+      - "5858:5432"
+    environment:
+      POSTGRES_DB: pagamentos-usuarios
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+   
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8088:8080
+    depends_on:
+      - postgres
+
+  spring-app:
+    image: 'diogopaza/usuario-pagar-me:latest'
+    container_name: minha-aplicacao-spring
+    ports: 
+      - "8085:8085"
+    environment:  
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres-ci:5432/pagamentos-usuarios
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 123
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+    depends_on:
+      - postgres
+
+
+
+
+
+  
